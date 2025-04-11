@@ -12,7 +12,6 @@ class rekeningBank:
             print(f"Tarik {tarik} berhasil! Saldo sekarang: {self.__saldo}")
         else:
             print("Saldo anda tidak mencukupi!")
-
     
     def setor_saldo(self):
         setor = int(input("Jumlah yang ingin disetorkan: "))
